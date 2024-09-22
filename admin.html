@@ -12,13 +12,19 @@
     <nav class=" navbar-dark bg-primary sidebar">
         <ul class="navbar-nav navbar-dark bg-primary">
             <a href="#">
-                <img class = "nav-item" src="images/pjexcdj7.bmp" alt="Logo" style="width:40px;">
+                <img class = "nav-item" src="images/pjexcdj7.bmp" alt="Logo" style="width:100px;">
             </a>
             <li class="nav-item">
                 <a class="nav-link" href="#">Dashboard</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tools MAKE A DROPDOWN HERE</a>
+                <a class="nav-link" href="#">Edit Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Calculation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">List</a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href="#">Charts</a>
@@ -29,10 +35,135 @@
             <li class="nav-item ">
                 <a class="nav-link" href="#">Forums</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Log Out</a>
+            </li>
         </ul>
     </nav>
-    <div class = "">
-    <p>test</p>
+    <div class = "adminpage ">
+        <p></p>
+        <div class = "center">
+            <input type="text" placeholder="Search for a tool..." style="width: 80rem; height: 2.2rem;">
+            <button type="submit" class = "btn btn-primary">Search</button>
+        </div>
+        <img class = "center" src="images/linedata.jpg"  alt="Logo" style="width: 1400px; display: flex;">
+        <!-- Pie Chart -->
+        <div class="pie-charts-container">
+            <div>
+                <p class="keywords text-center">User Locations</p>
+                <div class="user-pie"></div>
+                <div class="key text-center">
+                    <div style = "font-size: 12px" class="box color-blue">60%</div>
+                    <p class="keywords">America</p>
+                    <div style = "font-size: 12px" class="box color-red">20%</div>
+                    <p class="keywords">Japan</p>
+                    <div style = "font-size: 12px" class="box color-yellow">30%</div>
+                    <p class="keywords">Canada</p>
+                </div>
+            </div>
+            <div>
+                <p class="keywords text-center">Income</p>
+                <div class="income-pie"></div>
+                <div class="key text-center">
+                    <div style = "font-size: 12px"class="box color-blue">15%</div>
+                    <p  class="keywords">Sales from Item</p>
+                    <div style = "font-size: 12px" class = "box color-red">40%</div>
+                    <p class="keywords">Donations</p>
+                    <div style = "font-size: 12px" class="box color-yellow">55%</div>
+                    <p class="keywords">Subscriptions</p>
+                </div>
+            </div>
+            <div class="container" style="width: 60%; padding: 0; margin-left: 200px;">
+                <!-- Bar -->
+                <h3>Monthly Revenue</h3>
+                <div class="row">
+                    <div class="month-bar color-camblue" style="width: 9%;">January</div>
+                    <div class="bar" style="width: 70%; background-color: #2DE1C2;"> 12,053$</div>
+                </div>
+                <div class="row">
+                    <div class="month-bar color-camblue" style="width: 9%;">February</div>
+                    <div class="bar" style="width: 50%; background-color: #2DE1C2;">8,231$</div>
+                </div>
+                <div class="row">
+                    <div class="month-bar color-camblue" style="width: 9%;">March</div>
+                    <div class="bar" style="width: 32%; background-color: #2DE1C2;">5,131$</div>
+                </div>
+                <div class="row">
+                    <div class="month-bar color-camblue" style="width: 9%;">April</div>
+                    <div class="bar" style="width: 43%; background-color: #2DE1C2;">7,226$</div>
+                </div>
+                <div class="row">
+                    <div class="month-bar color-camblue" style="width: 9%;">May</div>
+                    <div class="bar" style="width: 22%; background-color: #2DE1C2;">3,447$</div>
+                </div>
+                <div class="row">
+                    <div class="month-bar color-camblue" style="width: 9%;">June</div>
+                    <div class="bar" style="width: 26%; background-color: #2DE1C2;">4,312$</div>
+                </div>
+                <div class="row">
+                    <div class="month-bar color-camblue" style="width: 9%;">July</div>
+                    <div class="bar" style="width: 41%; background-color: #2DE1C2;">7,022$</div>
+                </div>
+                <div class="row">
+                    <div class="month-bar color-camblue" style="width: 9%;">August</div>
+                    <div class="bar" style="width: 37%; background-color: #2DE1C2;">6,541$</div>
+                </div>
+                <div class="row">
+                    <div class="month-bar color-camblue" style="width: 9%;">September</div>
+                    <div class="bar" style="width: 9%; background-color: #2DE1C2;">985$</div>
+                </div>
+                <div class="row">
+                    <div class="month-bar color-camblue" style="width: 9%;">October</div>
+                    <div class="bar" style="width: 52%; background-color: #2DE1C2;">8,582$</div>
+                </div>
+                <div class="row">
+                    <div class="month-bar color-camblue" style="width: 9%;">Novemeber</div>
+                    <div class="bar" style="width: 82%; background-color: #2DE1C2;">15,295$</div>
+                </div>
+                <div class="row">
+                    <div class="month-bar color-camblue" style="width: 9%;">December</div>
+                    <div class="bar" style="width: 43%; background-color: #2DE1C2;">7,235$</div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="margin-left: 10%; margin-top: 2%;">
+            <table class="table table-container" style="width: 140%;" >
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Daryl</td>
+                        <td>Reed</td>
+                        <td>@dAr2c2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
-  </body>
+</body>
 </html>

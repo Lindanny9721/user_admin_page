@@ -19,6 +19,89 @@ li a {
     padding: 8px 16px;
     text-decoration: none;
 }
-li a:hover {
+a:hover {
     opacity: 50%;
+    background-color: #2196f3;
+}
+img {
+    display: block;
+}
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input {
+    border-radius: 8px;
+}
+.user-pie {
+    border-radius: 50%;
+    width: 30vmin;
+    height: 30vmin;
+    overflow: hidden;
+    background: linear-gradient(40deg, #2196f3 50%, transparent 50%), linear-gradient(to right, #e83f6f 50%, #ffc107 50%);
+}
+.income-pie {
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 30vmin;
+    height: 30vmin;
+    overflow: hidden;
+    background: linear-gradient(-23deg, #ffc107 50%, transparent 50%), linear-gradient(to right, #e83f6f 50%, #2196f3 50%);
+}
+.color-red
+{
+    background-color: #e83f6f;
+}
+.color-blue
+{
+    background-color: #2196f3;
+}
+.color-yellow
+{
+    background-color: #ffc107;
+}
+.color-camblue
+{
+    background-color: #7FBEAB;
+}
+.lightbackground {
+    opacity: 50%;
+}
+.box {
+    margin-right: 5px;
+    margin-left: 5px;
+    float: left;
+    overflow: hidden;
+    width: 3vmin;
+    height: 3vmin;
+    border-radius: 3px;
+}
+.keywords {
+    width: auto;
+}
+.pie-charts-container {
+    margin-left: 10%;
+    border: solid 2px;
+    padding-left: 20px;
+    display: flex;
+}
+.month-bar {
+    height: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    margin: 2% 0;
+    max-width: 5%;
+}
+.bar {
+    height: 20px;
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    margin: 2% 0;
+}
+.table-container {
+    border-radius: 10px;
+    border: solid black;
 }
